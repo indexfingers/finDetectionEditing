@@ -113,7 +113,7 @@ public class RunMatchContourToPoints {
 		
 		
 		// check to see if any keypoints already stored - if keypoints, get them and display on image
-		if (m.getTipPt().length==0) {
+		if (m.getTipPt().length!=0) {
 			tipyx = m.getTipPt();
 			leadingyx = m.getLePt();
 			trailingyx = m.getTePt();
