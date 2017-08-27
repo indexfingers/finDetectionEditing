@@ -290,7 +290,7 @@ public class MatchContourToPoints2 {
 
 			dists = distsPtToContour(regions.tippointyx[1], regions.tippointyx[0], sec1x, sec1y);
 			minIdx1 = getMinIdx(dists);
-			dists = distsPtToContour(regions.tippointyx[1], regions.tippointyx[1], sec2x, sec2y);
+			dists = distsPtToContour(regions.tippointyx[1], regions.tippointyx[0], sec2x, sec2y);
 			minIdx2 = getMinIdx(dists);
 
 			if (minIdx1.min < minIdx2.min) {
